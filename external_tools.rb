@@ -154,7 +154,7 @@ module Blitline
       rescue => ex
         BlitlineLogger.log(ex)
         BlitlineLogger.log("Continuing...")
-      end      
+      end
     end
 
 
@@ -295,10 +295,10 @@ module Blitline
         raise "Command (#{key}) not Found" unless MAGICK_COMMANDS.include?(key.reverse.chop.reverse)
         if value.is_a?(Array)
           value.each do |value_item|
-            raise "Invalid params value (#{value_item}), only letters, numbers, and the symbols -,@,#,%,+,$,^,:,!,., and a comma" if value_item.match(/[^a-zA-Z0-9\@\:\#\!\%\+\$\^\ \,\.\-]/)
+            raise "Invalid params value (#{value_item}), only letters, numbers, and the symbols -,@,#,%,+,$,^,:,!,.,= and a comma" if value_item.match(/[^a-zA-Z0-9\@\:\#\!\%\+\$\^\ \,\.\-\=]/)
           end
         else
-          raise "Invalid params value (#{value}), only letters, numbers, and the symbols -,@,#,%,+,$,^,:,!,., and a comma" if value.match(/[^a-zA-Z0-9\@\:\#\!\%\+\$\^\ \,\.\-]/)
+          raise "Invalid params value (#{value}), only letters, numbers, and the symbols -,@,#,%,+,$,^,:,!,.,= and a comma" if value.match(/[^a-zA-Z0-9\@\:\#\!\%\+\$\^\ \,\.\-\=]/)
         end
         raise "Individual params (#{value}) must be less than 60 characters" if value.length > 59
       end
