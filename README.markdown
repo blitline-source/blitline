@@ -37,6 +37,6 @@ In simple terms, we don't write image processing code, and there are many open s
 - DCRaw - License(GPL)
 - PNGQuant - License(GPL)
 - Chromium - License(BSD 3-clause)
-- FFMPEG - License(GPL
+- FFMPEG - License(GPL)
 
 
