@@ -22,6 +22,7 @@ In simple terms, we don't write image processing code, and there are many open s
 
 
 # Libraries Installed on Blitline Machines
+- Ubuntu (16.04)+, and software installed by default therein
 - ImageMagick - License(GPL)
 - LibreOffice(MPLv2.0)
 - Inkscape License(GPL)
