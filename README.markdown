@@ -22,11 +22,12 @@ In simple terms, we don't write image processing code, and there are many open s
 
 
 # Libraries Installed on Blitline Machines
-- Ubuntu (16.04)+, and software installed by default therein
-- ImageMagick - License(GPL)
+- Ubuntu (18.04)+, and software installed by default therein
+- ImageMagick - License(https://imagemagick.org/script/license.php)
 - LibreOffice(MPLv2.0)
 - Inkscape License(GPL)
-- XPdf - License(GPL)- Pngquant - License(BSD)
+- XPdf Reader - License(GPL)
+- Pngquant - License(BSD)
 - Pdftk - License(GPL)
 - Poppler - License(GPL)
 - Ghostscript - License(AGPL)
@@ -34,9 +35,9 @@ In simple terms, we don't write image processing code, and there are many open s
 - Apache Tika - License(Apache License Version 2.0)
 - Apache Batik - License(Apache License Version 2.0)
 - Exiv2 - License(GPL)
-- DCRaw - License(GPL)
-- PNGQuant - License(GPL)
+- DCRaw - License(GPLv2+)
+- PNGQuant - License(GPLv3)
 - Chromium - License(BSD 3-clause)
-- FFMPEG - License(GPL)
+- FFMPEG - License(LGPL version 2.1)
 
 
